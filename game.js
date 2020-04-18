@@ -50,6 +50,12 @@ switch (la_map) {
         repertoire_img = "img/cache/";
         
         break;
+    case "Anubis":
+        nb_screen = 26;
+        num_map_tab = 7;
+        repertoire_img = "img/anubis/";
+        
+        break;
     default:
         window.alert("Error");
         break;
@@ -220,7 +226,11 @@ var reponse_tab = [
     "CT_SPAWN","CUBBY","DEFAULT_BOX","DUMPSTER","ELEKTRO","FORKLIFT_YELLOW","GARAGE","HEADSHOT","HEAVEN","HELL",
     "HIGHWAY","LOCKERS","LONG_A","MAIN_A","MAIN_B","MID","NBK","NEW_BOX","PIT","QUAD",
     "RAFTERS","ROOF","SANDBAGS","SHROUD","SPRAY","SQUEAKY","SUN_ROOM","T_BOXES","T_SPAWN","T_TRUCK",
-    "TOXIC","TREE","TRUCK","VENT","WHITE_BOX"]
+    "TOXIC","TREE","TRUCK","VENT","WHITE_BOX"],
+    // ANUBIS
+    ["CT_SIDE_UPPER","A_SITE","ALLEY","B_SITE","BACKSITE_B","BOAT","BRIDGE","CANAL","CONNECTOR","CT_SPAWN",
+    "FOUNTAIN","HEAVEN","LOWER_TUNNEL","MAIN","MIDDLE","MIDDLE_DOOR","OUTSIDE_LONG","PALACE","RUINS","SNIPER",
+    "STREET","T_SIDE_UPPER","T_SPAWN","T_STAIRS","TUNNEL","WALKWAY"]
 ];
 
 //console.log(dust2.length);

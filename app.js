@@ -31,3 +31,7 @@ document.getElementById("co6").addEventListener('click', function(){
 document.getElementById("co7").addEventListener('click', function(){
     sessionStorage.setItem('map', 'Cache');
 });
+
+document.getElementById("co8").addEventListener('click', function(){
+    sessionStorage.setItem('map', 'Anubis');
+});
