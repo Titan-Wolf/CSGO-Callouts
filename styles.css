@@ -1,0 +1,64 @@
+/*#img_presentation {
+    border: 5px;
+    border-radius: 8px;
+    width: 400px;
+    height: 200px;
+}*/
+body {
+    margin: 2%;
+}
+/* ------------ index.html ------------ */
+div.polaroid {
+    position: relative;
+    float: left;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+img {width: 100%}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#main_img {
+    position: absolute;
+    border: 1px black solid;
+}
+/* ----------- game.html ------------- */
+
+div.case{
+    width: 65%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+div.reponse{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+div.reponse_win{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(75, 143, 8);
+}
+
+div.reponse_lose{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(192, 15, 15);
+}
+
+div.scoreboard{
+    border: 1px black solid;
+    width: 20%;
+}
